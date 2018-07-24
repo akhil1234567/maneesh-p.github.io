@@ -1,0 +1,146 @@
+body{
+
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+  h1{
+    cursor: default;
+    color: white;
+
+  }
+    ul{
+      list-style-type: none;
+    }
+
+  #content{
+    display: grid;
+    grid-auto-rows: repeat(2,auto);
+    margin:0 auto;
+    position: relative;
+  }
+  #nested1{
+    display: grid;
+    grid-template-rows: 100% 100%;
+    grid-template-columns: repeat(5,auto);
+    background: #181818;
+  }
+  #nested1 header{
+    grid-row: 1;
+    grid-column: 1;
+    /* background: black; */
+    background: #333;
+    font-size: 10px;
+  }
+  #nested1 a{
+    color:#666;
+  }
+  a.social{
+    display: none;
+  }
+  #nested1 a.navbar:hover{
+    color:#6DFDFF;
+    font-size: 25px;
+    /* color:black; */
+  }
+  #home{
+    grid-row: 2;
+    grid-column: 1;
+  }
+  #about{
+    grid-row: 2;
+    grid-column: 2;
+  }
+  #skills{
+    grid-row: 2;
+    grid-column:3;
+  }
+  #projects{
+    grid-row:  2;
+    grid-column: 4;
+  }
+  #contact{
+    grid-row:  2;
+    grid-column: 5;
+  }
+  #nested2{
+    display: grid;
+    grid-template-rows: repeat(18,42.15px);
+    /* grid-template-columns: 50% 50%; */
+    /* background-color: rgba(34, 34, 34, 0.5) ; */
+    /* background-color: #222; */
+    background: black;
+    /* background-color: #03051a; */
+
+  }
+  #nested2 h1{
+    margin-left: 10%;
+    text-align: left;
+    font-size:50px;
+    padding-top:45px;
+  }
+
+  #nested2 h1.head1{
+    grid-row: 6;
+
+  }
+  #nested2 h1.head2{
+    grid-row: 7;
+  }
+
+  #nested2 h1.head3{
+    grid-row: 8;
+  }
+  #nested2 p{
+    grid-row: 11;
+    margin-left: 10%;
+    text-align: left;
+    color: #aaa;
+    font-weight:lighter;
+
+  }
+  #nested2 p#bodyopen{
+    grid-row: 2;
+    margin-left:5%;
+     opacity: 0.5;
+  }
+  #nested2 p#bodyclose{
+    grid-row: 17;
+    margin-left:5%;
+     opacity: 0.5;
+  }
+  #nested2 p#h1open{
+    grid-row: 5;
+    padding-top: 20px;
+     opacity: 0.5;
+  }
+  #nested2 p#h1close{
+    grid-row: 10;
+    text-align: right;
+    margin-right: 30%;
+    padding-top: 10px;
+     opacity: 0.5;
+  }
+  #nested2 button{
+    grid-row: 12;
+    margin-left:10%;
+    margin-top:10px;
+    width: 20%;
+    height:35px;
+    background: none;
+    border: 1px solid white;
+    color:white;
+    font-family: sans-serif;
+    transition: 0.5s;
+  }
+  #nested2 img.dp{
+    /* grid-column: 2; */
+    grid-row: 5;
+    width:350px;
+    height:350px;
+    border-radius: 50%;
+    margin-left: 10%;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s;
+
+  }
