@@ -277,6 +277,20 @@ a.react{
     font-weight: bold;
   }
 
+  div.vertical-timeline{
+    grid-column: 2;
+    grid-row: 2;
+  }
+  div.vertical-timeline-block{
+    margin: 7%;
+    padding:5px 0;
+    background-color: white;
+  }
+
+  div.vertical-timeline h2 , p {
+    text-align: left;
+    margin-left: 5%;
+  }
 
 
 }
@@ -374,10 +388,11 @@ a.react{
       line-height: 0px;
     }
 
-    #nested2 h1.head1{
+    #nested2 h1.head1 , h1.abouthead1{
       grid-row: 3;
 
     }
+    
     #nested2 h1.head2{
       grid-row: 4;
     }
@@ -404,7 +419,7 @@ a.react{
       margin-left:5%;
        opacity: 0.5;
     }
-    #nested2 p#h1open{
+    #nested2 p#h1open, p#abouth1open{
       grid-row: 2;
       padding-top: 20px;
        opacity: 0.5;
@@ -417,6 +432,18 @@ a.react{
        opacity: 0.5;
        z-index: 3;
     }
+    #nested2  p#abouth1close{
+      grid-row: 5;
+      /* text-align: right;
+      margin-right: 35%; */
+      padding-top: 10px;
+       opacity: 0.5;
+       z-index: 3;
+    }
+    #nested2  p.aboutme{
+      padding-right:10%;
+    }
+
     #nested2 button{
       grid-row: 7;
       margin-left:10%;
@@ -440,6 +467,20 @@ a.react{
       -webkit-transition: all .5s; */
       display: none;
 
+    }
+
+    #nested2 div.vertical-timeline{
+      grid-row: 7;
+    }
+    div.vertical-timeline-block{
+      margin: 2% 5% 2% 9%;
+      padding:1%;
+      background-color: white;
+    }
+  
+    div.vertical-timeline h2 , p {
+      text-align: left;
+      margin-left: 5%;
     }
 
 
