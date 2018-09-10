@@ -553,5 +553,53 @@ a.react{
       margin-left: 5%;
     }
 
+    /* contact page */
+    form.contactform{
+      grid-column:1;
+      grid-row: 7;
+    }
+  
+    input[id="name"],input[id="email"],input[id="subject"],textarea{      
+      padding:2%;
+      /* margin-left:5%;     */
+      margin-bottom:3%;
+      width:70%;
+      background-color: #222;
+      border:none;   
+    }
+    
+    input, select, textarea{
+      color: #ffffff;
+          
+  }
+  
+    textarea:focus, input:focus {
+        color: #ffffff;
+        outline: none;
+        border-bottom: 1px solid #6DFDFF;
+    }
+  
+    div.address{
+      background: #222;
+      grid-column: 1;
+      grid-row: 8;
+      margin-right:10%;
+      margin-left: 13%;
+      margin-top: 10%;
+      /* padding: 3%; */
+    }
+    div.address p{
+      color:white;
+      
+    }
+    #nested2 p.contactp{
+      padding:5%;
+      margin-left:0;
+    }
+    #nested2 button.formbtn{
+      width:20%;
+      margin-left: 50%;
+    }
+
 
 }
