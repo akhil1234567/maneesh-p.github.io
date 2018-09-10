@@ -141,7 +141,7 @@ margin-top:-28%;
    color: #aaa;
 }
 #nested2 p#bodyclose{
-  grid-row: 17;
+  grid-row: 18;
   margin-left:5%;
    opacity: 0.5;
    color: #aaa;
@@ -344,6 +344,10 @@ a.react{
       color: #ffffff;
       outline: none;
       border-bottom: 1px solid #6DFDFF;
+  }
+  #nested2 button.formbtn{
+   
+    margin-left: 79%;
   }
 
   div.address{
