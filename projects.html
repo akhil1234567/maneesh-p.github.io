@@ -1,19 +1,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/loading-bar.css"/>
-    <script type="text/javascript" src="js/loading-bar.js"></script>
-    
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <title>Projects</title>
 </head>
-<body>
-    <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-        <a href="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">GEC Palakkad Kerala India</a>
-        by <a href="https://sketchfab.com/maneeshp?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">maneesh</a>
-        on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-        </p>
-    </div>
+<body style="background-color:black;">
+    <div class="" id="content">
+
+        <nav id="nested1" class="navigation">
+          <header><h1>M</h1></header>
+          <a class="navbar" href="index.html" id="home"><i class="navbar fas fa-home"></i></a>
+          <a class="navbar" href="about.html" id="about"><i class="navbar fas fa-user"></i></a>
+          <a class="navbar" href="skills.html" id="skills"><i class="navbar fas fa-cog"></i></a>
+          <a class="navbar" href="projects.html" id="projects"><i class="navbar fas fa-code"></i></a>
+          <a class="navbar" href="contact.html" id="contact"><i class="navbar fas fa-envelope"></i></a>
+          <a class="social ln" href="https://www.linkedin.com/in/maneesh-puthenveedu/" id="linkedin"><i class="social fab fa-linkedin-in"></i></a>
+          <a class="social gh" href="https://github.com/MANEESH-P" id="github"><i class="social fab fa-github"></i></a>
+          <a class="social fb" href="https://www.facebook.com/maneeshpits.me" id="facebook"><i class="social fab fa-facebook-f"></i></a>
+          <a class="social in" href="https://www.instagram.com/_maneesh_p_/" id="instagram"><i class="social fab fa-instagram"></i></a>
+        </nav>
+        <main id="nested2">           
+            <div class="arrow animated fadeInUp">
+                <h2><a href="https://github.com/MANEESH-P/arrow-online-document-forwarder">Arrow - Online Document Forwarding system</a></h2>
+                <p class="subheading">College Mini Project</p>
+                <p class="desc" > Arrow is a Django based online document forwarding system that was built for the
+                    college office. Used Django and materialize CSS
+                </p>
+                <a class="repo" href="https://github.com/MANEESH-P/arrow-online-document-forwarder" id="github"><i class="social fab fa-github"></i></a>
+            </div>  
+            <div class="invento animated fadeInUp">
+                <h2><a href="https://github.com/MANEESH-P/invento">Inventogec.org</a></h2>
+                <p class="subheading">College Techfest Website</p>
+                <p class="desc"> Invento is the annual techfest of GEC Palakkad. Worked as lead front end developer in
+                    coding the website inventgec.org
+                </p>
+                <a class="repo" href="https://github.com/MANEESH-P/invento" id="github"><i class="social fab fa-github"></i></a>
+            </div> 
+            <div class="sketchfab-embed-wrapper blender animated fadeInUp"><iframe src="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <p style="font-size: 13px; font-weight: normal; color: rgb(255, 255, 255);">
+                <a href="https://sketchfab.com/models/de1a0de146fd4aa69221b8679d9459cd?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">GEC Palakkad Kerala India</a>
+                by <a href="https://sketchfab.com/maneeshp?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">MANEESH</a>
+                on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">SKETCHFAB</a>
+                </p>
+            </div>
+            <div class="blender-anim animated fadeInUp">
+                <video controls>
+                    <source src="assets/anim.mp4" type="video/mp4">                   
+                  Your browser does not support the video tag.
+                  </video>
+                <p>Logo Animation For College Techfest</p>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" ntegrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"> </script>
 </body>
 </html>
