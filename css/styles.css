@@ -586,6 +586,13 @@ a.react{
       font-family: sans-serif;
       transition: 0.5s;
     }
+    #nested2 button:hover  a.btn-link{  
+      color: black;
+    }
+    #nested2 a.btn-link{
+      text-decoration:none;
+      color:white;
+    }
     #nested2 img.dp{
        grid-column: 1;
       grid-row: 3/7;
