@@ -190,14 +190,18 @@ h1 span:hover{
   color:#6DFDFF;
 
 }
-
-
 #nested2 button:hover{
   border:none;
   background-color:#6DFDFF;
   color:black;
   font-size: 15px;
-
+}
+#nested2 button:hover  a.btn-link{  
+  color: black;
+}
+#nested2 a.btn-link{
+  text-decoration:none;
+  color:white;
 }
 #nested2 img.dp:hover{
   -webkit-filter: grayscale(0);
