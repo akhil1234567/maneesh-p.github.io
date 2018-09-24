@@ -299,6 +299,176 @@ a.react{
     text-align: left;
     margin-left: 5%;
   }
+  /* Skills Page */
+  div.skillBar{
+    grid-column: 1;
+    margin-left:7%;    
+  }
+  h3.skillclass{
+    text-align: left;
+    color: white;
+    font-size:30px;
+  }
+  div.webdevskills{
+    grid-column:1;
+    grid-row: 2;
+  }
+  div.appdevskills{
+    grid-column:2;
+    grid-row:2;
+  }
+  div.modellingskills{
+    grid-column:2;
+    grid-row:10;
+  }
+  div.designskills{
+    grid-column:2;
+    grid-row:14;
+  }
+  .skillBar {
+    margin-bottom: 26px;
+    margin-bottom: 1.66em;
+  }
+  .skillBar h4 {
+    color: white;
+    text-align: left;
+    font-size: 21px;
+    font-size: 1.33em;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-bottom: .33em;
+  }
+  
+  .skillBarContainer {
+    width: 100%;
+    max-width: 350px;
+    height: 26px;
+    height: 1.66em;
+    /* background: #e6eae3;
+    background: #0866dc; */
+    /* background: rgba(8, 102, 220, 0.2); */
+    background: #282828;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .skillBarValue {
+    height: 1.66em;
+    float: left;
+    /* background: #0866dc;
+    background: #0866dc; */
+    background: #6DFDFF;
+  }
+  
+  
+  .value-00 {
+    width: 0;
+  }
+  
+  .value-10 {
+    width: 10%;
+  }
+  
+  .value-20 {
+    width: 20%;
+  }
+  
+  .value-30 {
+    width: 30%;
+  }
+  
+  .value-40 {
+    width: 40%;
+  }
+  
+  .value-50 {
+    width: 50%;
+  }
+  
+  .value-60 {
+    width: 60%;
+  }
+  
+  .value-70 {
+    width: 70%;
+  }
+  
+  .value-80 {
+    width: 80%;
+  }
+  
+  .value-90 {
+    width: 90%;
+  }
+  
+  .value-100 {
+    width: 100%;
+  }
+  
+ 
+  @-webkit-keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  @-moz-keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  @-ms-keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  @-o-keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  .skillBarValue {
+    -webkit-animation: slideIn 2s;
+    -moz-animation: slideIn 2s;
+    -o-animation: slideIn 2s;
+    animation: slideIn 2s;
+  }
 
   /* projects page */
 
@@ -650,6 +820,177 @@ a.react{
       text-align: left;
       margin-left: 5%;
     }
+
+    /* Skills Page */
+  div.skillBar{
+    grid-column: 1;
+    margin-left:7%;    
+  }
+  h3.skillclass{
+    text-align: center;
+    color: white;
+    font-size:30px;
+  }
+  div.webdevskills{
+    grid-column:1;
+    grid-row: 2;
+  }
+  div.appdevskills{
+    grid-column:1;
+    grid-row:3;
+  }
+  div.modellingskills{
+    grid-column:1;
+    grid-row:4;
+  }
+  div.designskills{
+    grid-column:1;
+    grid-row:5;
+  }
+  .skillBar {
+    margin-bottom: 26px;
+    margin-bottom: 1.66em;
+  }
+  .skillBar h4 {
+    color: white;
+    text-align: left;
+    font-size: 21px;
+    font-size: 1.33em;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-bottom: .33em;
+  }
+  
+  .skillBarContainer {
+    width: 100%;
+    max-width: 350px;
+    height: 26px;
+    height: 1.66em;
+    /* background: #e6eae3;
+    background: #0866dc; */
+    /* background: rgba(8, 102, 220, 0.2); */
+    background: #282828;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .skillBarValue {
+    height: 1.66em;
+    float: left;
+    /* background: #0866dc;
+    background: #0866dc; */
+    background: #6DFDFF;
+  }
+  
+  
+  .value-00 {
+    width: 0;
+  }
+  
+  .value-10 {
+    width: 10%;
+  }
+  
+  .value-20 {
+    width: 20%;
+  }
+  
+  .value-30 {
+    width: 30%;
+  }
+  
+  .value-40 {
+    width: 40%;
+  }
+  
+  .value-50 {
+    width: 50%;
+  }
+  
+  .value-60 {
+    width: 60%;
+  }
+  
+  .value-70 {
+    width: 70%;
+  }
+  
+  .value-80 {
+    width: 80%;
+  }
+  
+  .value-90 {
+    width: 90%;
+  }
+  
+  .value-100 {
+    width: 100%;
+  }
+  
+ 
+  @-webkit-keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  @-moz-keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  @-ms-keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  @-o-keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      width: 0;
+    }
+    25% {
+      width: 100%;
+    }
+    100% {
+      width: normal;
+    }
+  }
+  .skillBarValue {
+    -webkit-animation: slideIn 2s;
+    -moz-animation: slideIn 2s;
+    -o-animation: slideIn 2s;
+    animation: slideIn 2s;
+  }
 
 
     /* projects page */
