@@ -636,7 +636,7 @@ a.react{
     }
     #nested1{
       display: grid;
-      grid-template-rows: repeat(2,auto);
+      grid-template-rows: repeat(2,1fr);
       grid-template-columns: repeat(5,1fr);
       background: #181818;
     }
@@ -742,13 +742,19 @@ a.react{
       grid-column: 1;
       grid-row: 10;
       margin-left:5%;
-       opacity: 0.5;
+      opacity: 0.5;
+    }
+    #nested2 p#htmlclose{
+      grid-column: 1;
+      grid-row: 11;
+      margin-left:4%;
+      opacity: 0.5;
     }
     #nested2 p#h1open, p#abouth1open{
       grid-column: 1;
       grid-row: 2;
       padding-top: 20px;
-       opacity: 0.5;
+      opacity: 0.5;
     }
     #nested2 p#h1close{
       grid-column: 1;
@@ -756,8 +762,8 @@ a.react{
       text-align: right;
       margin-right: 15%;
       padding-top: 10px;
-       opacity: 0.5;
-       z-index: 3;
+      opacity: 0.5;
+      z-index: 3;
     }
     #nested2  p#abouth1close{
       grid-row: 5;
